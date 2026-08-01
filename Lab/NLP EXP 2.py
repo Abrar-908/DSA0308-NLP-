@@ -1,5 +1,3 @@
-# Finite State Automaton to recognize strings ending with 'ab'
-
 def fsa_ends_with_ab(string):
     """Return True iff the input string ends with 'ab'.
 
@@ -7,8 +5,6 @@ def fsa_ends_with_ab(string):
     """
     return string.endswith('ab')
 
-
-# Test cases
 test_strings = [
     "ab",
     "aab",
