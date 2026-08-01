@@ -5,10 +5,8 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
-# Sample words
 words = ["running", "studies", "better", "playing", "cars", "children"]
 
-# Initialize Stemmer and Lemmatizer
 stemmer = PorterStemmer()
 lemmatizer = WordNetLemmatizer()
 
